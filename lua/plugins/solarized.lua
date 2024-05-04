@@ -1,18 +1,16 @@
-vim.g.solarized_italic_comments = true
-vim.g.solarized_italic_keywords = true
-vim.g.solarized_italic_functions = true
-vim.g.solarized_italic_variables = false
-vim.g.solarized_contrast = true
-vim.g.solarized_borders = true
-vim.g.solarized_disable_background = false
+if true then
+  return {}
+end
 
 return {
-  { "shaunsingh/solarized.nvim" },
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "solarized",
-    },
+    "maxmx03/solarized.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.o.background = "light"
+      vim.cmd.colorscheme("solarized")
+    end,
   },
   {
     "nvim-lualine/lualine.nvim",
