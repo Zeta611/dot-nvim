@@ -7,6 +7,6 @@ return {
   keys = {
     { "<M-j>", "<Plug>CoqNext", mode = { "i", "n" }, desc = "Coqtail: Coq Next", ft = "coq" },
     { "<M-k>", "<Plug>CoqUndo", mode = { "i", "n" }, desc = "Coqtail: Coq Undo", ft = "coq" },
-    { "<M-l>", "<Plug>CoqToLine", mode = { "i", "n" }, desc = "Coqtail: Coq to Line", ft = "coq" },
+    { "<M-h>", "<Plug>CoqToLine", mode = { "i", "n" }, desc = "Coqtail: Coq to Line", ft = "coq" },
   },
 }
