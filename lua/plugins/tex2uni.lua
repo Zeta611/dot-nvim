@@ -2,7 +2,7 @@ return {
   {
     "Zeta611/tex2uni.nvim",
     opts = {
-      ft = { "*.tex", "*.v" },
+      ft = { "*.tex", "*.typ", "*.md", "*.v" },
     },
   },
 }
