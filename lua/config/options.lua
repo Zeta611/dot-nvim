@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.cmd([[ set wrap ]])
 vim.o.background = "light"
+vim.o.shell = "fish"
